@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.big-husbu {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.text-husbu {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(216, 23, 216);
+}
+.gambar-husbu {
+  display: flex;
+  justify-content: center;
+}
+.gambar {
+  width: 250px;
+  margin: 20px;
+  border: 2px solid rgb(216, 23, 216);
+  padding: 8px;
+}
+.nama-husbu {
+  display: flex;
+  justify-content: center;
+}
+.nama {
+  margin: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nama:hover {
+  color: red;
+  transition: 0.5s;
+}
+.suka-husbu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suka {
+  margin: 123px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: transform 0.5s;
+}
+.suka:hover {
+  transform: scale(1.2);
+  border: 2px solid red;
+  background-color: transparent;
+  background: #000000;
+}
